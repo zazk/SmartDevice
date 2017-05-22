@@ -1,0 +1,2 @@
+# SmartDevice
+Mediatek SmartDevice
