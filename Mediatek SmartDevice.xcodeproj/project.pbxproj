@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4D77041A8363F1004F7DED /* CallModeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4D77061A8363F1004F7DED /* CallModeTableViewCell.xib */; };
+		CE4D770B1A836621004F7DED /* SOSContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4D770D1A836621004F7DED /* SOSContactTableViewCell.xib */; };
+		CE50D6DC19C930B000FB7DBA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE50D6DE19C930B000FB7DBA /* Localizable.strings */; };
+		CE50D6E319C9793000FB7DBA /* ScannedDeviceTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE50D6E519C9793000FB7DBA /* ScannedDeviceTableCell.xib */; };
+		CE50D6EA19C9796400FB7DBA /* ScanTopTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE50D6EC19C9796400FB7DBA /* ScanTopTableCell.xib */; };
+		CE58ABA11A80BDC800FCC4DC /* SOSContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58AB9F1A80BDC800FCC4DC /* SOSContactTableViewCell.m */; };
+		CE58ABA71A80CBE300FCC4DC /* CallModeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58ABA51A80CBE300FCC4DC /* CallModeTableViewCell.m */; };
+		CE5D6BFA1A2DAF720056E272 /* ic_heart_list_22x22.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5D6BF81A2DAF720056E272 /* ic_heart_list_22x22.png */; };
+		CE5D6BFB1A2DAF720056E272 /* ic_heart_list_44x44.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5D6BF91A2DAF720056E272 /* ic_heart_list_44x44.png */; };
+		CE94C95C1A8D92D700D17216 /* ic_call_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = CE94C95A1A8D92D700D17216 /* ic_call_320x480.png */; };
+		CE94C95D1A8D92D700D17216 /* ic_call_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = CE94C95B1A8D92D700D17216 /* ic_call_640x1136.png */; };
+		CEAD3DC61A5E31DB00224AB1 /* SOSCallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD3DC51A5E31DB00224AB1 /* SOSCallTableViewController.m */; };
+		CEAD3DCB1A5E69D000224AB1 /* CallModeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD3DCA1A5E69D000224AB1 /* CallModeTableViewController.m */; };
+		CEAD3E5B1A67A8D200224AB1 /* ContactEditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD3E5A1A67A8D200224AB1 /* ContactEditTableViewController.m */; };
+		CEAD3E651A69FD4200224AB1 /* SOSCallDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD3E641A69FD4200224AB1 /* SOSCallDataManager.m */; };
+		CEC8B9B119FE4A2F006D5AD3 /* HealthDataMgrTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC8B9B019FE4A2F006D5AD3 /* HealthDataMgrTableViewController.m */; };
+		CEE534721ED2645400794EB9 /* libMTKBleManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE534711ED2645400794EB9 /* libMTKBleManager.a */; };
+		D99F872219AC822A00A828EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F872119AC822A00A828EE /* Foundation.framework */; };
+		D99F872419AC822A00A828EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F872319AC822A00A828EE /* CoreGraphics.framework */; };
+		D99F872619AC822A00A828EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F872519AC822A00A828EE /* UIKit.framework */; };
+		D99F872C19AC822A00A828EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D99F872A19AC822A00A828EE /* InfoPlist.strings */; };
+		D99F872E19AC822A00A828EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F872D19AC822A00A828EE /* main.m */; };
+		D99F873219AC822A00A828EE /* MtkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F873119AC822A00A828EE /* MtkAppDelegate.m */; };
+		D99F873519AC822A00A828EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99F873319AC822A00A828EE /* Main.storyboard */; };
+		D99F873819AC822A00A828EE /* MtkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F873719AC822A00A828EE /* MtkViewController.m */; };
+		D99F873A19AC822A00A828EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99F873919AC822A00A828EE /* Images.xcassets */; };
+		D99F874119AC822A00A828EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F874019AC822A00A828EE /* XCTest.framework */; };
+		D99F874219AC822A00A828EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F872119AC822A00A828EE /* Foundation.framework */; };
+		D99F874319AC822A00A828EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F872519AC822A00A828EE /* UIKit.framework */; };
+		D99F874B19AC822A00A828EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D99F874919AC822A00A828EE /* InfoPlist.strings */; };
+		D99F874D19AC822A00A828EE /* Mediatek_SmartDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F874C19AC822A00A828EE /* Mediatek_SmartDeviceTests.m */; };
+		D99F876A19AC842700A828EE /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D99F875719AC842700A828EE /* Alarm.mp3 */; };
+		D99F876B19AC842700A828EE /* BLE_Launch_320X480.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F875819AC842700A828EE /* BLE_Launch_320X480.png */; };
+		D99F876C19AC842700A828EE /* BLE_Launch_640X960.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F875919AC842700A828EE /* BLE_Launch_640X960.png */; };
+		D99F876D19AC842700A828EE /* BLE_Launch_640X1136.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F875A19AC842700A828EE /* BLE_Launch_640X1136.png */; };
+		D99F876E19AC842700A828EE /* ic_add_device.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F875B19AC842700A828EE /* ic_add_device.png */; };
+		D99F876F19AC842700A828EE /* ic_alert_list.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F875C19AC842700A828EE /* ic_alert_list.png */; };
+		D99F877019AC842700A828EE /* ic_BLE_Launcher_58X58.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F875D19AC842700A828EE /* ic_BLE_Launcher_58X58.png */; };
+		D99F877119AC842700A828EE /* ic_BLE_Launcher_80X80.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F875E19AC842700A828EE /* ic_BLE_Launcher_80X80.png */; };
+		D99F877219AC842700A828EE /* ic_BLE_Launcher_120X120.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F875F19AC842700A828EE /* ic_BLE_Launcher_120X120.png */; };
+		D99F877319AC842700A828EE /* ic_device.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F876019AC842700A828EE /* ic_device.png */; };
+		D99F877419AC842700A828EE /* ic_ringing.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F876119AC842700A828EE /* ic_ringing.png */; };
+		D99F877519AC842700A828EE /* ic_ringing2.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F876219AC842700A828EE /* ic_ringing2.png */; };
+		D99F877619AC842700A828EE /* ic_search_device.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F876319AC842700A828EE /* ic_search_device.png */; };
+		D99F877719AC842700A828EE /* ic_signal_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F876419AC842700A828EE /* ic_signal_0.png */; };
+		D99F877819AC842700A828EE /* ic_signal_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F876519AC842700A828EE /* ic_signal_1.png */; };
+		D99F877919AC842700A828EE /* ic_signal_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F876619AC842700A828EE /* ic_signal_2.png */; };
+		D99F877A19AC842700A828EE /* ic_signal_3.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F876719AC842700A828EE /* ic_signal_3.png */; };
+		D99F877B19AC842700A828EE /* ic_signal_4.png in Resources */ = {isa = PBXBuildFile; fileRef = D99F876819AC842700A828EE /* ic_signal_4.png */; };
+		D99F877C19AC842700A828EE /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D99F876919AC842700A828EE /* sample.m4a */; };
+		D99F879719AC9DFF00A828EE /* BLEManagerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D99F878D19AC9DFF00A828EE /* BLEManagerModel.xcdatamodeld */; };
+		D99F879819AC9DFF00A828EE /* CachedBLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F879019AC9DFF00A828EE /* CachedBLEDevice.m */; };
+		D99F879919AC9DFF00A828EE /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F879219AC9DFF00A828EE /* DeviceInfo.m */; };
+		D99F879A19AC9DFF00A828EE /* DeviceParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F879419AC9DFF00A828EE /* DeviceParameter.m */; };
+		D99F879B19AC9DFF00A828EE /* MTKDeviceParameterRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F879619AC9DFF00A828EE /* MTKDeviceParameterRecorder.m */; };
+		D99F87A519AC9E0800A828EE /* BackgroundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F879D19AC9E0800A828EE /* BackgroundManager.m */; };
+		D99F87A819AC9E0800A828EE /* PhoneRinger.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F87A419AC9E0800A828EE /* PhoneRinger.m */; };
+		D99F87C619AC9E1300A828EE /* DeviceManagerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F87AA19AC9E1300A828EE /* DeviceManagerTableViewController.m */; };
+		D99F87C819AC9E1300A828EE /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F87AE19AC9E1300A828EE /* MainTableViewController.m */; };
+		D99F87CA19AC9E1300A828EE /* PxpConfigTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F87B219AC9E1300A828EE /* PxpConfigTableViewController.m */; };
+		D99F87CC19AC9E1300A828EE /* PxpRangeChooserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F87B619AC9E1300A828EE /* PxpRangeChooserTableViewController.m */; };
+		D99F87CE19AC9E1300A828EE /* PxpWhenChooserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F87BA19AC9E1300A828EE /* PxpWhenChooserTableViewController.m */; };
+		D99F87D119AC9E1300A828EE /* ScannedDeviceTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F87C019AC9E1300A828EE /* ScannedDeviceTableCell.m */; };
+		D99F87D319AC9E1300A828EE /* ScanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F87C319AC9E1300A828EE /* ScanTableViewController.m */; };
+		D99F87DC19ACAEED00A828EE /* ScanTopTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F87DA19ACAEED00A828EE /* ScanTopTableCell.m */; };
+		D9A3951419B0149700B2ED46 /* ic_Launch_Image_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A3951119B0149700B2ED46 /* ic_Launch_Image_320x480.png */; };
+		D9A3951519B0149700B2ED46 /* ic_Launch_Image_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A3951219B0149700B2ED46 /* ic_Launch_Image_640x960.png */; };
+		D9A3951619B0149700B2ED46 /* ic_Launch_Image_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A3951319B0149700B2ED46 /* ic_Launch_Image_640x1136.png */; };
+		D9C12C471A8B01F600BBFE87 /* ProgressAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C12C461A8B01F600BBFE87 /* ProgressAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D99F874419AC822A00A828EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D99F871619AC822A00A828EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D99F871D19AC822A00A828EE;
+			remoteInfo = "Mediatek SmartDevice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1703CF19B5ABB6002EF7BA /* libMTKBleManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMTKBleManager.a; path = "Mediatek SmartDevice/lib/libMTKBleManager.a"; sourceTree = "<group>"; };
+		CE1703DE19B6B5D8002EF7BA /* MTKBleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTKBleManager.h; path = include/MTKBleManager.h; sourceTree = "<group>"; };
+		CE1703DF19B6B609002EF7BA /* MTKBleProximityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTKBleProximityService.h; path = include/MTKBleProximityService.h; sourceTree = "<group>"; };
+		CE1703E119B6B77C002EF7BA /* AlertService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertService.h; path = include/AlertService.h; sourceTree = "<group>"; };
+		CE1703E219B6B77C002EF7BA /* FmpCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FmpCentral.h; path = include/FmpCentral.h; sourceTree = "<group>"; };
+		CE232A871A04870400D09916 /* HealthKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthKitManager.h; path = include/HealthKitManager.h; sourceTree = "<group>"; };
+		CE4D77051A8363F1004F7DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CallModeTableViewCell.xib; sourceTree = "<group>"; };
+		CE4D77081A8363F4004F7DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CallModeTableViewCell.strings; sourceTree = "<group>"; };
+		CE4D770A1A8363F4004F7DED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CallModeTableViewCell.strings"; sourceTree = "<group>"; };
+		CE4D770C1A836621004F7DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SOSContactTableViewCell.xib; sourceTree = "<group>"; };
+		CE4D770F1A836623004F7DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SOSContactTableViewCell.strings; sourceTree = "<group>"; };
+		CE4D77111A836623004F7DED /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SOSContactTableViewCell.strings"; sourceTree = "<group>"; };
+		CE4E7BA81A78EFAC008D40C7 /* SOSCallOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOSCallOperator.h; path = include/SOSCallOperator.h; sourceTree = "<group>"; };
+		CE4E7BA91A78EFAC008D40C7 /* SOSContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOSContact.h; path = include/SOSContact.h; sourceTree = "<group>"; };
+		CE50D6D719C92FC700FB7DBA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CE50D6D819C92FC700FB7DBA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CE50D6DD19C930B000FB7DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE50D6DF19C930B500FB7DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE50D6E019C930B600FB7DBA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CE50D6E419C9793000FB7DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ScannedDeviceTableCell.xib; sourceTree = "<group>"; };
+		CE50D6E719C9793B00FB7DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ScannedDeviceTableCell.strings; sourceTree = "<group>"; };
+		CE50D6E919C9794000FB7DBA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ScannedDeviceTableCell.strings"; sourceTree = "<group>"; };
+		CE50D6EB19C9796400FB7DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ScanTopTableCell.xib; sourceTree = "<group>"; };
+		CE50D6EE19C9797600FB7DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ScanTopTableCell.strings; sourceTree = "<group>"; };
+		CE50D6F019C9797700FB7DBA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ScanTopTableCell.strings"; sourceTree = "<group>"; };
+		CE58AB9E1A80BDC800FCC4DC /* SOSContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOSContactTableViewCell.h; path = UI/SOSContactTableViewCell.h; sourceTree = "<group>"; };
+		CE58AB9F1A80BDC800FCC4DC /* SOSContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SOSContactTableViewCell.m; path = UI/SOSContactTableViewCell.m; sourceTree = "<group>"; };
+		CE58ABA41A80CBE300FCC4DC /* CallModeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallModeTableViewCell.h; path = UI/CallModeTableViewCell.h; sourceTree = "<group>"; };
+		CE58ABA51A80CBE300FCC4DC /* CallModeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallModeTableViewCell.m; path = UI/CallModeTableViewCell.m; sourceTree = "<group>"; };
+		CE5D6BF81A2DAF720056E272 /* ic_heart_list_22x22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_heart_list_22x22.png; path = Resource/ic_heart_list_22x22.png; sourceTree = "<group>"; };
+		CE5D6BF91A2DAF720056E272 /* ic_heart_list_44x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_heart_list_44x44.png; path = Resource/ic_heart_list_44x44.png; sourceTree = "<group>"; };
+		CE64C0AD1A8AEC6F00CD3760 /* BodyTemperatureService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BodyTemperatureService.h; path = include/BodyTemperatureService.h; sourceTree = "<group>"; };
+		CE64C0AE1A8AEC6F00CD3760 /* GATTLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GATTLinker.h; path = include/GATTLinker.h; sourceTree = "<group>"; };
+		CE64C0AF1A8AECA500CD3760 /* Linker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Linker.h; path = include/Linker.h; sourceTree = "<group>"; };
+		CE94C95A1A8D92D700D17216 /* ic_call_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_call_320x480.png; path = Resource/ic_call_320x480.png; sourceTree = "<group>"; };
+		CE94C95B1A8D92D700D17216 /* ic_call_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_call_640x1136.png; path = Resource/ic_call_640x1136.png; sourceTree = "<group>"; };
+		CE9BCEF619BAB2590009400B /* IAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAlert.h; path = include/IAlert.h; sourceTree = "<group>"; };
+		CE9BCF0519BAE0F10009400B /* DefaultAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultAlert.h; path = include/DefaultAlert.h; sourceTree = "<group>"; };
+		CE9BCF0619BAE0F10009400B /* MTKBlePeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTKBlePeripheralManager.h; path = include/MTKBlePeripheralManager.h; sourceTree = "<group>"; };
+		CE9BCF0719BAE0F10009400B /* VolumeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VolumeController.h; path = include/VolumeController.h; sourceTree = "<group>"; };
+		CEAD3DB91A5BDA5B00224AB1 /* BloodPressureService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BloodPressureService.h; path = include/BloodPressureService.h; sourceTree = "<group>"; };
+		CEAD3DC41A5E31DB00224AB1 /* SOSCallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOSCallTableViewController.h; path = UI/SOSCallTableViewController.h; sourceTree = "<group>"; };
+		CEAD3DC51A5E31DB00224AB1 /* SOSCallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SOSCallTableViewController.m; path = UI/SOSCallTableViewController.m; sourceTree = "<group>"; };
+		CEAD3DC91A5E69D000224AB1 /* CallModeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallModeTableViewController.h; path = UI/CallModeTableViewController.h; sourceTree = "<group>"; };
+		CEAD3DCA1A5E69D000224AB1 /* CallModeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CallModeTableViewController.m; path = UI/CallModeTableViewController.m; sourceTree = "<group>"; };
+		CEAD3E591A67A8D200224AB1 /* ContactEditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactEditTableViewController.h; path = UI/ContactEditTableViewController.h; sourceTree = "<group>"; };
+		CEAD3E5A1A67A8D200224AB1 /* ContactEditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactEditTableViewController.m; path = UI/ContactEditTableViewController.m; sourceTree = "<group>"; };
+		CEAD3E631A69FD4200224AB1 /* SOSCallDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOSCallDataManager.h; path = Logic/SOSCallDataManager.h; sourceTree = "<group>"; };
+		CEAD3E641A69FD4200224AB1 /* SOSCallDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SOSCallDataManager.m; path = Logic/SOSCallDataManager.m; sourceTree = "<group>"; };
+		CEC8B9AF19FE4A2F006D5AD3 /* HealthDataMgrTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HealthDataMgrTableViewController.h; path = UI/HealthDataMgrTableViewController.h; sourceTree = "<group>"; };
+		CEC8B9B019FE4A2F006D5AD3 /* HealthDataMgrTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HealthDataMgrTableViewController.m; path = UI/HealthDataMgrTableViewController.m; sourceTree = "<group>"; };
+		CEC8B9BE19FF2C06006D5AD3 /* Mediatek SmartDevice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Mediatek SmartDevice.entitlements"; sourceTree = "<group>"; };
+		CED11E9E1AD371EA00206814 /* BLEClientProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLEClientProfile.h; path = include/BLEClientProfile.h; sourceTree = "<group>"; };
+		CED11E9F1AD371EA00206814 /* FmpGattClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FmpGattClient.h; path = include/FmpGattClient.h; sourceTree = "<group>"; };
+		CED11EA91AD3791300206814 /* PdmsSleepService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PdmsSleepService.h; path = include/PdmsSleepService.h; sourceTree = "<group>"; };
+		CEE534711ED2645400794EB9 /* libMTKBleManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMTKBleManager.a; path = ../libMTKBleManager.a; sourceTree = "<group>"; };
+		CEE616B71A0C6875004B690D /* DataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataParser.h; path = include/DataParser.h; sourceTree = "<group>"; };
+		CEF15EF31ADBBF5F007606CE /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = include/Controller.h; sourceTree = "<group>"; };
+		D99F871E19AC822A00A828EE /* Mediatek SmartDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mediatek SmartDevice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99F872119AC822A00A828EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D99F872319AC822A00A828EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D99F872519AC822A00A828EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D99F872919AC822A00A828EE /* Mediatek SmartDevice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mediatek SmartDevice-Info.plist"; sourceTree = "<group>"; };
+		D99F872B19AC822A00A828EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D99F872D19AC822A00A828EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D99F872F19AC822A00A828EE /* Mediatek SmartDevice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediatek SmartDevice-Prefix.pch"; sourceTree = "<group>"; };
+		D99F873019AC822A00A828EE /* MtkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MtkAppDelegate.h; sourceTree = "<group>"; };
+		D99F873119AC822A00A828EE /* MtkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MtkAppDelegate.m; sourceTree = "<group>"; };
+		D99F873419AC822A00A828EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D99F873619AC822A00A828EE /* MtkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MtkViewController.h; sourceTree = "<group>"; };
+		D99F873719AC822A00A828EE /* MtkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MtkViewController.m; sourceTree = "<group>"; };
+		D99F873919AC822A00A828EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D99F873F19AC822A00A828EE /* Mediatek SmartDeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mediatek SmartDeviceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99F874019AC822A00A828EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D99F874819AC822A00A828EE /* Mediatek SmartDeviceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mediatek SmartDeviceTests-Info.plist"; sourceTree = "<group>"; };
+		D99F874A19AC822A00A828EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D99F874C19AC822A00A828EE /* Mediatek_SmartDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mediatek_SmartDeviceTests.m; sourceTree = "<group>"; };
+		D99F875719AC842700A828EE /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alarm.mp3; path = Resource/Alarm.mp3; sourceTree = "<group>"; };
+		D99F875819AC842700A828EE /* BLE_Launch_320X480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BLE_Launch_320X480.png; path = Resource/BLE_Launch_320X480.png; sourceTree = "<group>"; };
+		D99F875919AC842700A828EE /* BLE_Launch_640X960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BLE_Launch_640X960.png; path = Resource/BLE_Launch_640X960.png; sourceTree = "<group>"; };
+		D99F875A19AC842700A828EE /* BLE_Launch_640X1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BLE_Launch_640X1136.png; path = Resource/BLE_Launch_640X1136.png; sourceTree = "<group>"; };
+		D99F875B19AC842700A828EE /* ic_add_device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_add_device.png; path = Resource/ic_add_device.png; sourceTree = "<group>"; };
+		D99F875C19AC842700A828EE /* ic_alert_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_alert_list.png; path = Resource/ic_alert_list.png; sourceTree = "<group>"; };
+		D99F875D19AC842700A828EE /* ic_BLE_Launcher_58X58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_BLE_Launcher_58X58.png; path = Resource/ic_BLE_Launcher_58X58.png; sourceTree = "<group>"; };
+		D99F875E19AC842700A828EE /* ic_BLE_Launcher_80X80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_BLE_Launcher_80X80.png; path = Resource/ic_BLE_Launcher_80X80.png; sourceTree = "<group>"; };
+		D99F875F19AC842700A828EE /* ic_BLE_Launcher_120X120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_BLE_Launcher_120X120.png; path = Resource/ic_BLE_Launcher_120X120.png; sourceTree = "<group>"; };
+		D99F876019AC842700A828EE /* ic_device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_device.png; path = Resource/ic_device.png; sourceTree = "<group>"; };
+		D99F876119AC842700A828EE /* ic_ringing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_ringing.png; path = Resource/ic_ringing.png; sourceTree = "<group>"; };
+		D99F876219AC842700A828EE /* ic_ringing2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_ringing2.png; path = Resource/ic_ringing2.png; sourceTree = "<group>"; };
+		D99F876319AC842700A828EE /* ic_search_device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_search_device.png; path = Resource/ic_search_device.png; sourceTree = "<group>"; };
+		D99F876419AC842700A828EE /* ic_signal_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_signal_0.png; path = Resource/ic_signal_0.png; sourceTree = "<group>"; };
+		D99F876519AC842700A828EE /* ic_signal_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_signal_1.png; path = Resource/ic_signal_1.png; sourceTree = "<group>"; };
+		D99F876619AC842700A828EE /* ic_signal_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_signal_2.png; path = Resource/ic_signal_2.png; sourceTree = "<group>"; };
+		D99F876719AC842700A828EE /* ic_signal_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_signal_3.png; path = Resource/ic_signal_3.png; sourceTree = "<group>"; };
+		D99F876819AC842700A828EE /* ic_signal_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_signal_4.png; path = Resource/ic_signal_4.png; sourceTree = "<group>"; };
+		D99F876919AC842700A828EE /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample.m4a; path = Resource/sample.m4a; sourceTree = "<group>"; };
+		D99F878E19AC9DFF00A828EE /* BLEManagerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BLEManagerModel.xcdatamodel; sourceTree = "<group>"; };
+		D99F878F19AC9DFF00A828EE /* CachedBLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CachedBLEDevice.h; path = Data/CachedBLEDevice.h; sourceTree = "<group>"; };
+		D99F879019AC9DFF00A828EE /* CachedBLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CachedBLEDevice.m; path = Data/CachedBLEDevice.m; sourceTree = "<group>"; };
+		D99F879119AC9DFF00A828EE /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceInfo.h; path = Data/DeviceInfo.h; sourceTree = "<group>"; };
+		D99F879219AC9DFF00A828EE /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceInfo.m; path = Data/DeviceInfo.m; sourceTree = "<group>"; };
+		D99F879319AC9DFF00A828EE /* DeviceParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceParameter.h; path = Data/DeviceParameter.h; sourceTree = "<group>"; };
+		D99F879419AC9DFF00A828EE /* DeviceParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceParameter.m; path = Data/DeviceParameter.m; sourceTree = "<group>"; };
+		D99F879519AC9DFF00A828EE /* MTKDeviceParameterRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTKDeviceParameterRecorder.h; path = Data/MTKDeviceParameterRecorder.h; sourceTree = "<group>"; };
+		D99F879619AC9DFF00A828EE /* MTKDeviceParameterRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTKDeviceParameterRecorder.m; path = Data/MTKDeviceParameterRecorder.m; sourceTree = "<group>"; };
+		D99F879C19AC9E0800A828EE /* BackgroundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundManager.h; path = Logic/BackgroundManager.h; sourceTree = "<group>"; };
+		D99F879D19AC9E0800A828EE /* BackgroundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundManager.m; path = Logic/BackgroundManager.m; sourceTree = "<group>"; };
+		D99F879E19AC9E0800A828EE /* BLEManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLEManagerConstants.h; path = Logic/BLEManagerConstants.h; sourceTree = "<group>"; };
+		D99F87A319AC9E0800A828EE /* PhoneRinger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneRinger.h; path = Logic/PhoneRinger.h; sourceTree = "<group>"; };
+		D99F87A419AC9E0800A828EE /* PhoneRinger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneRinger.m; path = Logic/PhoneRinger.m; sourceTree = "<group>"; };
+		D99F87A919AC9E1300A828EE /* DeviceManagerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceManagerTableViewController.h; path = UI/DeviceManagerTableViewController.h; sourceTree = "<group>"; };
+		D99F87AA19AC9E1300A828EE /* DeviceManagerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceManagerTableViewController.m; path = UI/DeviceManagerTableViewController.m; sourceTree = "<group>"; };
+		D99F87AD19AC9E1300A828EE /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = UI/MainTableViewController.h; sourceTree = "<group>"; };
+		D99F87AE19AC9E1300A828EE /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = UI/MainTableViewController.m; sourceTree = "<group>"; };
+		D99F87B119AC9E1300A828EE /* PxpConfigTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PxpConfigTableViewController.h; path = UI/PxpConfigTableViewController.h; sourceTree = "<group>"; };
+		D99F87B219AC9E1300A828EE /* PxpConfigTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PxpConfigTableViewController.m; path = UI/PxpConfigTableViewController.m; sourceTree = "<group>"; };
+		D99F87B519AC9E1300A828EE /* PxpRangeChooserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PxpRangeChooserTableViewController.h; path = UI/PxpRangeChooserTableViewController.h; sourceTree = "<group>"; };
+		D99F87B619AC9E1300A828EE /* PxpRangeChooserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PxpRangeChooserTableViewController.m; path = UI/PxpRangeChooserTableViewController.m; sourceTree = "<group>"; };
+		D99F87B919AC9E1300A828EE /* PxpWhenChooserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PxpWhenChooserTableViewController.h; path = UI/PxpWhenChooserTableViewController.h; sourceTree = "<group>"; };
+		D99F87BA19AC9E1300A828EE /* PxpWhenChooserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PxpWhenChooserTableViewController.m; path = UI/PxpWhenChooserTableViewController.m; sourceTree = "<group>"; };
+		D99F87BF19AC9E1300A828EE /* ScannedDeviceTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScannedDeviceTableCell.h; path = UI/ScannedDeviceTableCell.h; sourceTree = "<group>"; };
+		D99F87C019AC9E1300A828EE /* ScannedDeviceTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScannedDeviceTableCell.m; path = UI/ScannedDeviceTableCell.m; sourceTree = "<group>"; };
+		D99F87C219AC9E1300A828EE /* ScanTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScanTableViewController.h; path = UI/ScanTableViewController.h; sourceTree = "<group>"; };
+		D99F87C319AC9E1300A828EE /* ScanTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScanTableViewController.m; path = UI/ScanTableViewController.m; sourceTree = "<group>"; };
+		D99F87D919ACAEED00A828EE /* ScanTopTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScanTopTableCell.h; path = UI/ScanTopTableCell.h; sourceTree = "<group>"; };
+		D99F87DA19ACAEED00A828EE /* ScanTopTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScanTopTableCell.m; path = UI/ScanTopTableCell.m; sourceTree = "<group>"; };
+		D9A3951119B0149700B2ED46 /* ic_Launch_Image_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_Launch_Image_320x480.png; path = Resource/ic_Launch_Image_320x480.png; sourceTree = "<group>"; };
+		D9A3951219B0149700B2ED46 /* ic_Launch_Image_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_Launch_Image_640x960.png; path = Resource/ic_Launch_Image_640x960.png; sourceTree = "<group>"; };
+		D9A3951319B0149700B2ED46 /* ic_Launch_Image_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_Launch_Image_640x1136.png; path = Resource/ic_Launch_Image_640x1136.png; sourceTree = "<group>"; };
+		D9C12C411A8AFFDC00BBFE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		D9C12C431A8B000700BBFE87 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D9C12C451A8B01F600BBFE87 /* ProgressAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressAlertView.h; path = UI/ProgressAlertView.h; sourceTree = "<group>"; };
+		D9C12C461A8B01F600BBFE87 /* ProgressAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressAlertView.m; path = UI/ProgressAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D99F871B19AC822A00A828EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE534721ED2645400794EB9 /* libMTKBleManager.a in Frameworks */,
+				D99F872419AC822A00A828EE /* CoreGraphics.framework in Frameworks */,
+				D99F872619AC822A00A828EE /* UIKit.framework in Frameworks */,
+				D99F872219AC822A00A828EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99F873C19AC822A00A828EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99F874119AC822A00A828EE /* XCTest.framework in Frameworks */,
+				D99F874319AC822A00A828EE /* UIKit.framework in Frameworks */,
+				D99F874219AC822A00A828EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1703DD19B6B5BE002EF7BA /* inlcude */ = {
+			isa = PBXGroup;
+			children = (
+				CEF15EF31ADBBF5F007606CE /* Controller.h */,
+				CED11EA91AD3791300206814 /* PdmsSleepService.h */,
+				CED11E9E1AD371EA00206814 /* BLEClientProfile.h */,
+				CED11E9F1AD371EA00206814 /* FmpGattClient.h */,
+				CE64C0AF1A8AECA500CD3760 /* Linker.h */,
+				CE64C0AD1A8AEC6F00CD3760 /* BodyTemperatureService.h */,
+				CE64C0AE1A8AEC6F00CD3760 /* GATTLinker.h */,
+				CE4E7BA81A78EFAC008D40C7 /* SOSCallOperator.h */,
+				CE4E7BA91A78EFAC008D40C7 /* SOSContact.h */,
+				CEAD3DB91A5BDA5B00224AB1 /* BloodPressureService.h */,
+				CEE616B71A0C6875004B690D /* DataParser.h */,
+				CE232A871A04870400D09916 /* HealthKitManager.h */,
+				CE9BCF0519BAE0F10009400B /* DefaultAlert.h */,
+				CE9BCF0619BAE0F10009400B /* MTKBlePeripheralManager.h */,
+				CE9BCF0719BAE0F10009400B /* VolumeController.h */,
+				CE9BCEF619BAB2590009400B /* IAlert.h */,
+				CE1703E119B6B77C002EF7BA /* AlertService.h */,
+				CE1703E219B6B77C002EF7BA /* FmpCentral.h */,
+				CE1703DF19B6B609002EF7BA /* MTKBleProximityService.h */,
+				CE1703DE19B6B5D8002EF7BA /* MTKBleManager.h */,
+			);
+			name = inlcude;
+			sourceTree = "<group>";
+		};
+		D99F871519AC822A00A828EE = {
+			isa = PBXGroup;
+			children = (
+				D99F872719AC822A00A828EE /* Mediatek SmartDevice */,
+				D99F874619AC822A00A828EE /* Mediatek SmartDeviceTests */,
+				D99F872019AC822A00A828EE /* Frameworks */,
+				D99F871F19AC822A00A828EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D99F871F19AC822A00A828EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D99F871E19AC822A00A828EE /* Mediatek SmartDevice.app */,
+				D99F873F19AC822A00A828EE /* Mediatek SmartDeviceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D99F872019AC822A00A828EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE534711ED2645400794EB9 /* libMTKBleManager.a */,
+				CE1703CF19B5ABB6002EF7BA /* libMTKBleManager.a */,
+				D99F872119AC822A00A828EE /* Foundation.framework */,
+				D99F872319AC822A00A828EE /* CoreGraphics.framework */,
+				D99F872519AC822A00A828EE /* UIKit.framework */,
+				D99F874019AC822A00A828EE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D99F872719AC822A00A828EE /* Mediatek SmartDevice */ = {
+			isa = PBXGroup;
+			children = (
+				CEC8B9BE19FF2C06006D5AD3 /* Mediatek SmartDevice.entitlements */,
+				CE1703DD19B6B5BE002EF7BA /* inlcude */,
+				D99F877F19AC9DB300A828EE /* Data */,
+				D99F877E19AC9DAD00A828EE /* Logic */,
+				D99F877D19AC9DA600A828EE /* UI */,
+				D99F875619AC841600A828EE /* Resource */,
+				D99F873019AC822A00A828EE /* MtkAppDelegate.h */,
+				D99F873119AC822A00A828EE /* MtkAppDelegate.m */,
+				D99F873319AC822A00A828EE /* Main.storyboard */,
+				D99F873619AC822A00A828EE /* MtkViewController.h */,
+				D99F873719AC822A00A828EE /* MtkViewController.m */,
+				D99F873919AC822A00A828EE /* Images.xcassets */,
+				D99F872819AC822A00A828EE /* Supporting Files */,
+				CE50D6DE19C930B000FB7DBA /* Localizable.strings */,
+			);
+			path = "Mediatek SmartDevice";
+			sourceTree = "<group>";
+		};
+		D99F872819AC822A00A828EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D99F872919AC822A00A828EE /* Mediatek SmartDevice-Info.plist */,
+				D99F872A19AC822A00A828EE /* InfoPlist.strings */,
+				D99F872D19AC822A00A828EE /* main.m */,
+				D99F872F19AC822A00A828EE /* Mediatek SmartDevice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D99F874619AC822A00A828EE /* Mediatek SmartDeviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D99F874C19AC822A00A828EE /* Mediatek_SmartDeviceTests.m */,
+				D99F874719AC822A00A828EE /* Supporting Files */,
+			);
+			path = "Mediatek SmartDeviceTests";
+			sourceTree = "<group>";
+		};
+		D99F874719AC822A00A828EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D99F874819AC822A00A828EE /* Mediatek SmartDeviceTests-Info.plist */,
+				D99F874919AC822A00A828EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D99F875619AC841600A828EE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CE94C95A1A8D92D700D17216 /* ic_call_320x480.png */,
+				CE94C95B1A8D92D700D17216 /* ic_call_640x1136.png */,
+				CE5D6BF81A2DAF720056E272 /* ic_heart_list_22x22.png */,
+				CE5D6BF91A2DAF720056E272 /* ic_heart_list_44x44.png */,
+				D9A3951119B0149700B2ED46 /* ic_Launch_Image_320x480.png */,
+				D9A3951219B0149700B2ED46 /* ic_Launch_Image_640x960.png */,
+				D9A3951319B0149700B2ED46 /* ic_Launch_Image_640x1136.png */,
+				D99F875719AC842700A828EE /* Alarm.mp3 */,
+				D99F875819AC842700A828EE /* BLE_Launch_320X480.png */,
+				D99F875919AC842700A828EE /* BLE_Launch_640X960.png */,
+				D99F875A19AC842700A828EE /* BLE_Launch_640X1136.png */,
+				D99F875B19AC842700A828EE /* ic_add_device.png */,
+				D99F875C19AC842700A828EE /* ic_alert_list.png */,
+				D99F875D19AC842700A828EE /* ic_BLE_Launcher_58X58.png */,
+				D99F875E19AC842700A828EE /* ic_BLE_Launcher_80X80.png */,
+				D99F875F19AC842700A828EE /* ic_BLE_Launcher_120X120.png */,
+				D99F876019AC842700A828EE /* ic_device.png */,
+				D99F876119AC842700A828EE /* ic_ringing.png */,
+				D99F876219AC842700A828EE /* ic_ringing2.png */,
+				D99F876319AC842700A828EE /* ic_search_device.png */,
+				D99F876419AC842700A828EE /* ic_signal_0.png */,
+				D99F876519AC842700A828EE /* ic_signal_1.png */,
+				D99F876619AC842700A828EE /* ic_signal_2.png */,
+				D99F876719AC842700A828EE /* ic_signal_3.png */,
+				D99F876819AC842700A828EE /* ic_signal_4.png */,
+				D99F876919AC842700A828EE /* sample.m4a */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		D99F877D19AC9DA600A828EE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D9C12C451A8B01F600BBFE87 /* ProgressAlertView.h */,
+				D9C12C461A8B01F600BBFE87 /* ProgressAlertView.m */,
+				D99F87A919AC9E1300A828EE /* DeviceManagerTableViewController.h */,
+				D99F87AA19AC9E1300A828EE /* DeviceManagerTableViewController.m */,
+				D99F87AD19AC9E1300A828EE /* MainTableViewController.h */,
+				D99F87AE19AC9E1300A828EE /* MainTableViewController.m */,
+				D99F87B119AC9E1300A828EE /* PxpConfigTableViewController.h */,
+				D99F87B219AC9E1300A828EE /* PxpConfigTableViewController.m */,
+				D99F87B519AC9E1300A828EE /* PxpRangeChooserTableViewController.h */,
+				D99F87B619AC9E1300A828EE /* PxpRangeChooserTableViewController.m */,
+				D99F87B919AC9E1300A828EE /* PxpWhenChooserTableViewController.h */,
+				D99F87BA19AC9E1300A828EE /* PxpWhenChooserTableViewController.m */,
+				D99F87BF19AC9E1300A828EE /* ScannedDeviceTableCell.h */,
+				D99F87C019AC9E1300A828EE /* ScannedDeviceTableCell.m */,
+				CE50D6E519C9793000FB7DBA /* ScannedDeviceTableCell.xib */,
+				D99F87C219AC9E1300A828EE /* ScanTableViewController.h */,
+				D99F87C319AC9E1300A828EE /* ScanTableViewController.m */,
+				D99F87D919ACAEED00A828EE /* ScanTopTableCell.h */,
+				D99F87DA19ACAEED00A828EE /* ScanTopTableCell.m */,
+				CE50D6EC19C9796400FB7DBA /* ScanTopTableCell.xib */,
+				CEC8B9AF19FE4A2F006D5AD3 /* HealthDataMgrTableViewController.h */,
+				CEC8B9B019FE4A2F006D5AD3 /* HealthDataMgrTableViewController.m */,
+				CEAD3DC41A5E31DB00224AB1 /* SOSCallTableViewController.h */,
+				CEAD3DC51A5E31DB00224AB1 /* SOSCallTableViewController.m */,
+				CEAD3DC91A5E69D000224AB1 /* CallModeTableViewController.h */,
+				CEAD3DCA1A5E69D000224AB1 /* CallModeTableViewController.m */,
+				CEAD3E591A67A8D200224AB1 /* ContactEditTableViewController.h */,
+				CEAD3E5A1A67A8D200224AB1 /* ContactEditTableViewController.m */,
+				CE58AB9E1A80BDC800FCC4DC /* SOSContactTableViewCell.h */,
+				CE58AB9F1A80BDC800FCC4DC /* SOSContactTableViewCell.m */,
+				CE4D770D1A836621004F7DED /* SOSContactTableViewCell.xib */,
+				CE58ABA41A80CBE300FCC4DC /* CallModeTableViewCell.h */,
+				CE58ABA51A80CBE300FCC4DC /* CallModeTableViewCell.m */,
+				CE4D77061A8363F1004F7DED /* CallModeTableViewCell.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D99F877E19AC9DAD00A828EE /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD3E631A69FD4200224AB1 /* SOSCallDataManager.h */,
+				CEAD3E641A69FD4200224AB1 /* SOSCallDataManager.m */,
+				D99F879C19AC9E0800A828EE /* BackgroundManager.h */,
+				D99F879D19AC9E0800A828EE /* BackgroundManager.m */,
+				D99F879E19AC9E0800A828EE /* BLEManagerConstants.h */,
+				D99F87A319AC9E0800A828EE /* PhoneRinger.h */,
+				D99F87A419AC9E0800A828EE /* PhoneRinger.m */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		D99F877F19AC9DB300A828EE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D99F878D19AC9DFF00A828EE /* BLEManagerModel.xcdatamodeld */,
+				D99F878F19AC9DFF00A828EE /* CachedBLEDevice.h */,
+				D99F879019AC9DFF00A828EE /* CachedBLEDevice.m */,
+				D99F879119AC9DFF00A828EE /* DeviceInfo.h */,
+				D99F879219AC9DFF00A828EE /* DeviceInfo.m */,
+				D99F879319AC9DFF00A828EE /* DeviceParameter.h */,
+				D99F879419AC9DFF00A828EE /* DeviceParameter.m */,
+				D99F879519AC9DFF00A828EE /* MTKDeviceParameterRecorder.h */,
+				D99F879619AC9DFF00A828EE /* MTKDeviceParameterRecorder.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D99F871D19AC822A00A828EE /* Mediatek SmartDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99F875019AC822A00A828EE /* Build configuration list for PBXNativeTarget "Mediatek SmartDevice" */;
+			buildPhases = (
+				D99F871A19AC822A00A828EE /* Sources */,
+				D99F871B19AC822A00A828EE /* Frameworks */,
+				D99F871C19AC822A00A828EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mediatek SmartDevice";
+			productName = "Mediatek SmartDevice";
+			productReference = D99F871E19AC822A00A828EE /* Mediatek SmartDevice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D99F873E19AC822A00A828EE /* Mediatek SmartDeviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99F875319AC822A00A828EE /* Build configuration list for PBXNativeTarget "Mediatek SmartDeviceTests" */;
+			buildPhases = (
+				D99F873B19AC822A00A828EE /* Sources */,
+				D99F873C19AC822A00A828EE /* Frameworks */,
+				D99F873D19AC822A00A828EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D99F874519AC822A00A828EE /* PBXTargetDependency */,
+			);
+			name = "Mediatek SmartDeviceTests";
+			productName = "Mediatek SmartDeviceTests";
+			productReference = D99F873F19AC822A00A828EE /* Mediatek SmartDeviceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D99F871619AC822A00A828EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mtk;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Mediatek;
+				TargetAttributes = {
+					D99F871D19AC822A00A828EE = {
+						DevelopmentTeam = TWH57C2LL8;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+						};
+					};
+					D99F873E19AC822A00A828EE = {
+						TestTargetID = D99F871D19AC822A00A828EE;
+					};
+				};
+			};
+			buildConfigurationList = D99F871919AC822A00A828EE /* Build configuration list for PBXProject "Mediatek SmartDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = D99F871519AC822A00A828EE;
+			productRefGroup = D99F871F19AC822A00A828EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D99F871D19AC822A00A828EE /* Mediatek SmartDevice */,
+				D99F873E19AC822A00A828EE /* Mediatek SmartDeviceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D99F871C19AC822A00A828EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99F877419AC842700A828EE /* ic_ringing.png in Resources */,
+				D99F876B19AC842700A828EE /* BLE_Launch_320X480.png in Resources */,
+				D9A3951619B0149700B2ED46 /* ic_Launch_Image_640x1136.png in Resources */,
+				D99F876D19AC842700A828EE /* BLE_Launch_640X1136.png in Resources */,
+				CE4D770B1A836621004F7DED /* SOSContactTableViewCell.xib in Resources */,
+				D99F877719AC842700A828EE /* ic_signal_0.png in Resources */,
+				CE94C95D1A8D92D700D17216 /* ic_call_640x1136.png in Resources */,
+				D99F877319AC842700A828EE /* ic_device.png in Resources */,
+				D99F877A19AC842700A828EE /* ic_signal_3.png in Resources */,
+				D9A3951519B0149700B2ED46 /* ic_Launch_Image_640x960.png in Resources */,
+				D99F877819AC842700A828EE /* ic_signal_1.png in Resources */,
+				D9A3951419B0149700B2ED46 /* ic_Launch_Image_320x480.png in Resources */,
+				D99F876A19AC842700A828EE /* Alarm.mp3 in Resources */,
+				D99F873A19AC822A00A828EE /* Images.xcassets in Resources */,
+				CE5D6BFA1A2DAF720056E272 /* ic_heart_list_22x22.png in Resources */,
+				CE4D77041A8363F1004F7DED /* CallModeTableViewCell.xib in Resources */,
+				D99F877019AC842700A828EE /* ic_BLE_Launcher_58X58.png in Resources */,
+				D99F877919AC842700A828EE /* ic_signal_2.png in Resources */,
+				D99F877B19AC842700A828EE /* ic_signal_4.png in Resources */,
+				CE50D6EA19C9796400FB7DBA /* ScanTopTableCell.xib in Resources */,
+				CE50D6E319C9793000FB7DBA /* ScannedDeviceTableCell.xib in Resources */,
+				CE50D6DC19C930B000FB7DBA /* Localizable.strings in Resources */,
+				D99F877C19AC842700A828EE /* sample.m4a in Resources */,
+				CE94C95C1A8D92D700D17216 /* ic_call_320x480.png in Resources */,
+				D99F877619AC842700A828EE /* ic_search_device.png in Resources */,
+				D99F872C19AC822A00A828EE /* InfoPlist.strings in Resources */,
+				D99F877219AC842700A828EE /* ic_BLE_Launcher_120X120.png in Resources */,
+				D99F876C19AC842700A828EE /* BLE_Launch_640X960.png in Resources */,
+				D99F873519AC822A00A828EE /* Main.storyboard in Resources */,
+				CE5D6BFB1A2DAF720056E272 /* ic_heart_list_44x44.png in Resources */,
+				D99F876F19AC842700A828EE /* ic_alert_list.png in Resources */,
+				D99F877519AC842700A828EE /* ic_ringing2.png in Resources */,
+				D99F877119AC842700A828EE /* ic_BLE_Launcher_80X80.png in Resources */,
+				D99F876E19AC842700A828EE /* ic_add_device.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99F873D19AC822A00A828EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99F874B19AC822A00A828EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D99F871A19AC822A00A828EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99F873819AC822A00A828EE /* MtkViewController.m in Sources */,
+				D99F872E19AC822A00A828EE /* main.m in Sources */,
+				D99F879B19AC9DFF00A828EE /* MTKDeviceParameterRecorder.m in Sources */,
+				CEAD3DC61A5E31DB00224AB1 /* SOSCallTableViewController.m in Sources */,
+				D99F87CE19AC9E1300A828EE /* PxpWhenChooserTableViewController.m in Sources */,
+				D99F87CC19AC9E1300A828EE /* PxpRangeChooserTableViewController.m in Sources */,
+				CE58ABA71A80CBE300FCC4DC /* CallModeTableViewCell.m in Sources */,
+				CEAD3E5B1A67A8D200224AB1 /* ContactEditTableViewController.m in Sources */,
+				D99F87D119AC9E1300A828EE /* ScannedDeviceTableCell.m in Sources */,
+				D99F87C819AC9E1300A828EE /* MainTableViewController.m in Sources */,
+				D9C12C471A8B01F600BBFE87 /* ProgressAlertView.m in Sources */,
+				D99F879719AC9DFF00A828EE /* BLEManagerModel.xcdatamodeld in Sources */,
+				D99F879819AC9DFF00A828EE /* CachedBLEDevice.m in Sources */,
+				D99F87A819AC9E0800A828EE /* PhoneRinger.m in Sources */,
+				D99F873219AC822A00A828EE /* MtkAppDelegate.m in Sources */,
+				D99F879919AC9DFF00A828EE /* DeviceInfo.m in Sources */,
+				CEC8B9B119FE4A2F006D5AD3 /* HealthDataMgrTableViewController.m in Sources */,
+				D99F87CA19AC9E1300A828EE /* PxpConfigTableViewController.m in Sources */,
+				CE58ABA11A80BDC800FCC4DC /* SOSContactTableViewCell.m in Sources */,
+				CEAD3DCB1A5E69D000224AB1 /* CallModeTableViewController.m in Sources */,
+				D99F87DC19ACAEED00A828EE /* ScanTopTableCell.m in Sources */,
+				D99F87A519AC9E0800A828EE /* BackgroundManager.m in Sources */,
+				D99F879A19AC9DFF00A828EE /* DeviceParameter.m in Sources */,
+				CEAD3E651A69FD4200224AB1 /* SOSCallDataManager.m in Sources */,
+				D99F87D319AC9E1300A828EE /* ScanTableViewController.m in Sources */,
+				D99F87C619AC9E1300A828EE /* DeviceManagerTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99F873B19AC822A00A828EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99F874D19AC822A00A828EE /* Mediatek_SmartDeviceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D99F874519AC822A00A828EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D99F871D19AC822A00A828EE /* Mediatek SmartDevice */;
+			targetProxy = D99F874419AC822A00A828EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE4D77061A8363F1004F7DED /* CallModeTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4D77051A8363F1004F7DED /* Base */,
+				CE4D77081A8363F4004F7DED /* en */,
+				CE4D770A1A8363F4004F7DED /* zh-Hans */,
+			);
+			name = CallModeTableViewCell.xib;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CE4D770D1A836621004F7DED /* SOSContactTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE4D770C1A836621004F7DED /* Base */,
+				CE4D770F1A836623004F7DED /* en */,
+				CE4D77111A836623004F7DED /* zh-Hans */,
+			);
+			name = SOSContactTableViewCell.xib;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CE50D6DE19C930B000FB7DBA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE50D6DD19C930B000FB7DBA /* Base */,
+				CE50D6DF19C930B500FB7DBA /* en */,
+				CE50D6E019C930B600FB7DBA /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CE50D6E519C9793000FB7DBA /* ScannedDeviceTableCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE50D6E419C9793000FB7DBA /* Base */,
+				CE50D6E719C9793B00FB7DBA /* en */,
+				CE50D6E919C9794000FB7DBA /* zh-Hans */,
+			);
+			name = ScannedDeviceTableCell.xib;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CE50D6EC19C9796400FB7DBA /* ScanTopTableCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE50D6EB19C9796400FB7DBA /* Base */,
+				CE50D6EE19C9797600FB7DBA /* en */,
+				CE50D6F019C9797700FB7DBA /* zh-Hans */,
+			);
+			name = ScanTopTableCell.xib;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D99F872A19AC822A00A828EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99F872B19AC822A00A828EE /* en */,
+				CE50D6D719C92FC700FB7DBA /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D99F873319AC822A00A828EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99F873419AC822A00A828EE /* Base */,
+				D9C12C411A8AFFDC00BBFE87 /* en */,
+				D9C12C431A8B000700BBFE87 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D99F874919AC822A00A828EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99F874A19AC822A00A828EE /* en */,
+				CE50D6D819C92FC700FB7DBA /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D99F874E19AC822A00A828EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iOS Development: Liang Lv (7R9XBH56UW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: Liang Lv (7R9XBH56UW)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7e9f4311-eba3-4eb7-82d1-c68202ee9233";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		D99F874F19AC822A00A828EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iOS Development: Liang Lv (7R9XBH56UW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iOS Development: Liang Lv (7R9XBH56UW)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE = "7e9f4311-eba3-4eb7-82d1-c68202ee9233";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		D99F875119AC822A00A828EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liang Lv (7R9XBH56UW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mediatek SmartDevice/Mediatek SmartDevice-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$SOURCE_ROOT/**",
+				);
+				INFOPLIST_FILE = "Mediatek SmartDevice/Mediatek SmartDevice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D99F875219AC822A00A828EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liang Lv (7R9XBH56UW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mediatek SmartDevice/Mediatek SmartDevice-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$SOURCE_ROOT/**",
+				);
+				INFOPLIST_FILE = "Mediatek SmartDevice/Mediatek SmartDevice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D99F875419AC822A00A828EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mediatek SmartDevice.app/Mediatek SmartDevice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mediatek SmartDevice/Mediatek SmartDevice-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mediatek SmartDeviceTests/Mediatek SmartDeviceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D99F875519AC822A00A828EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mediatek SmartDevice.app/Mediatek SmartDevice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mediatek SmartDevice/Mediatek SmartDevice-Prefix.pch";
+				INFOPLIST_FILE = "Mediatek SmartDeviceTests/Mediatek SmartDeviceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D99F871919AC822A00A828EE /* Build configuration list for PBXProject "Mediatek SmartDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99F874E19AC822A00A828EE /* Debug */,
+				D99F874F19AC822A00A828EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99F875019AC822A00A828EE /* Build configuration list for PBXNativeTarget "Mediatek SmartDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99F875119AC822A00A828EE /* Debug */,
+				D99F875219AC822A00A828EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99F875319AC822A00A828EE /* Build configuration list for PBXNativeTarget "Mediatek SmartDeviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99F875419AC822A00A828EE /* Debug */,
+				D99F875519AC822A00A828EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D99F878D19AC9DFF00A828EE /* BLEManagerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D99F878E19AC9DFF00A828EE /* BLEManagerModel.xcdatamodel */,
+			);
+			currentVersion = D99F878E19AC9DFF00A828EE /* BLEManagerModel.xcdatamodel */;
+			name = BLEManagerModel.xcdatamodeld;
+			path = Data/BLEManagerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D99F871619AC822A00A828EE /* Project object */;
+}

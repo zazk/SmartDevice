@@ -1,0 +1,9 @@
+
+/* Class = "IBUITextField"; text = "1"; ObjectID = "glT-1A-uOL"; */
+"glT-1A-uOL.text" = "1";
+
+/* Class = "IBUIButton"; normalTitle = "Delete"; ObjectID = "kXf-UX-8hr"; */
+"kXf-UX-8hr.normalTitle" = "Delete";
+
+/* Class = "IBUITextField"; placeholder = "Tab to add sos call"; ObjectID = "oCj-BG-uEd"; */
+"oCj-BG-uEd.placeholder" = "Tap to add sos call";

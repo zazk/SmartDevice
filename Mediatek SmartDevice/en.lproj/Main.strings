@@ -1,0 +1,264 @@
+
+/* Class = "IBUINavigationItem"; title = "New SOS call"; ObjectID = "0Va-XM-fSa"; */
+"0Va-XM-fSa.title" = "New SOS call";
+
+/* Class = "IBUIButton"; normalTitle = "Clear"; ObjectID = "1jA-Ug-9T1"; */
+"1jA-Ug-9T1.normalTitle" = "Clear";
+
+/* Class = "IBUIButton"; normalTitle = "Clear"; ObjectID = "1sI-Dn-xTI"; */
+"1sI-Dn-xTI.normalTitle" = "Clear";
+
+/* Class = "IBUITextField"; accessibilityLabel = "tab to"; ObjectID = "21t-c1-3BP"; */
+"21t-c1-3BP.accessibilityLabel" = "tab to";
+
+/* Class = "IBUITextField"; placeholder = "Tab to add sos call"; ObjectID = "21t-c1-3BP"; */
+"21t-c1-3BP.placeholder" = "Tab to add sos call";
+
+/* Class = "IBUITableViewSection"; headerTitle = "SOS contacts"; ObjectID = "2T1-qz-Bhb"; */
+"2T1-qz-Bhb.headerTitle" = "SOS contacts";
+
+/* Class = "IBUILabel"; text = "Range size"; ObjectID = "2r4-ox-vEh"; */
+"2r4-ox-vEh.text" = "Range size";
+
+/* Class = "IBUITextField"; placeholder = "Name"; ObjectID = "3ES-vo-Ifh"; */
+"3ES-vo-Ifh.placeholder" = "Name";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Both the phone and BLE device ring or vibrate when the BLE device meets the range alert conditions"; ObjectID = "3gq-ON-fT9"; */
+"3gq-ON-fT9.footerTitle" = "Both the phone and BLE device ring or vibrate when the BLE device meets the range alert conditions";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Range alert"; ObjectID = "3gq-ON-fT9"; */
+"3gq-ON-fT9.headerTitle" = "Range alert";
+
+/* Class = "IBUILabel"; text = "-- KM"; ObjectID = "3zY-5g-Xcs"; */
+"3zY-5g-Xcs.text" = "-- KM";
+
+/* Class = "IBUILabel"; text = "Version 1.3.0"; ObjectID = "5AI-Ob-DRO"; */
+"5AI-Ob-DRO.text" = "Version 1.3.1";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "5yT-1O-lX6"; */
+"5yT-1O-lX6.title" = "< Back";
+
+/* Class = "IBUILabel"; text = "Alert"; ObjectID = "6LP-tU-UaZ"; */
+"6LP-tU-UaZ.text" = "Alert";
+
+/* Class = "IBUILabel"; text = "Disconnected"; ObjectID = "78M-6b-nAd"; */
+"78M-6b-nAd.text" = "Disconnected";
+
+/* Class = "IBUIButton"; normalTitle = "Forget this device"; ObjectID = "7Dk-kF-wCh"; */
+"7Dk-kF-wCh.normalTitle" = "Forget this device";
+
+/* Class = "IBUIButton"; normalTitle = "Clear"; ObjectID = "Eur-rA-lm1"; */
+"Eur-rA-lm1.normalTitle" = "Clear";
+
+/* Class = "IBUITextField"; accessibilityLabel = "tab to"; ObjectID = "EyP-w3-1tv"; */
+"EyP-w3-1tv.accessibilityLabel" = "tab to";
+
+/* Class = "IBUITextField"; placeholder = "Tab to add sos call"; ObjectID = "EyP-w3-1tv"; */
+"EyP-w3-1tv.placeholder" = "Tab to add sos call";
+
+/* Class = "IBUILabel"; text = "Near"; ObjectID = "Fsx-MO-osx"; */
+"Fsx-MO-osx.text" = "Near";
+
+/* Class = "IBUILabel"; text = "SOS call"; ObjectID = "IY2-Ky-Zxt"; */
+"IY2-Ky-Zxt.text" = "SOS call";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Range Size may change because of the device signal strength, Certain elements can weaken the strength such as our body, walls and other obstructions."; ObjectID = "IiS-HB-bkc"; */
+"IiS-HB-bkc.footerTitle" = "Range Size may change because of the device signal strength, Certain elements can weaken the strength such as our body, walls and other obstructions.";
+
+/* Class = "IBUILabel"; text = "Middle"; ObjectID = "JEk-s0-9MI"; */
+"JEk-s0-9MI.text" = "Middle";
+
+/* Class = "IBUILabel"; text = "Alert ring"; ObjectID = "KUK-79-BNj"; */
+"KUK-79-BNj.text" = "Alert ring";
+
+/* Class = "IBUILabel"; text = "Disconnect alert"; ObjectID = "L1R-TP-qFP"; */
+"L1R-TP-qFP.text" = "Disconnect alert";
+
+/* Class = "IBUILabel"; text = "Range alert"; ObjectID = "Lzz-Q0-r5c"; */
+"Lzz-Q0-r5c.text" = "Range alert";
+
+/* Class = "IBUILabel"; text = "Calories"; ObjectID = "MmA-DO-4wc"; */
+"MmA-DO-4wc.text" = "Calories";
+
+/* Class = "IBUIBarButtonItem"; title = "< SOS call"; ObjectID = "Nkv-OU-3Sh"; */
+"Nkv-OU-3Sh.title" = "< SOS call";
+
+/* Class = "IBUIButton"; normalTitle = "Clear"; ObjectID = "NxC-UA-zvr"; */
+"NxC-UA-zvr.normalTitle" = "Clear";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "Ovk-qI-3Vb"; */
+"Ovk-qI-3Vb.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Manual"; ObjectID = "Q6f-We-31G"; */
+"Q6f-We-31G.text" = "Manual";
+
+/* Class = "IBUITextField"; placeholder = "Phone"; ObjectID = "QEZ-WZ-WtM"; */
+"QEZ-WZ-WtM.placeholder" = "Phone";
+
+/* Class = "IBUITextField"; accessibilityLabel = "tab to"; ObjectID = "QjP-vL-Y0S"; */
+"QjP-vL-Y0S.accessibilityLabel" = "tab to";
+
+/* Class = "IBUITextField"; placeholder = "Tab to add sos call"; ObjectID = "QjP-vL-Y0S"; */
+"QjP-vL-Y0S.placeholder" = "Tab to add sos call";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "RKU-eY-JUz"; */
+"RKU-eY-JUz.title" = "< Back";
+
+/* Class = "IBUILabel"; text = "----"; ObjectID = "T6n-yD-H5b"; */
+"T6n-yD-H5b.text" = "----";
+
+/* Class = "IBUILabel"; text = "Off"; ObjectID = "TL6-Qz-8Xl"; */
+"TL6-Qz-8Xl.text" = "Off";
+
+/* Class = "IBUITextField"; text = "1"; ObjectID = "ULz-FP-NTA"; */
+"ULz-FP-NTA.text" = "1";
+
+/* Class = "IBUIButton"; normalTitle = "Clear"; ObjectID = "Uru-FK-zva"; */
+"Uru-FK-zva.normalTitle" = "Clear";
+
+/* Class = "IBUITextField"; text = "1"; ObjectID = "V3v-D4-fum"; */
+"V3v-D4-fum.text" = "1";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "WNH-eU-gIR"; */
+"WNH-eU-gIR.title" = "< Back";
+
+/* Class = "IBUINavigationItem"; title = "MediaTek SmartDevice"; ObjectID = "X5n-7C-hLk"; */
+"X5n-7C-hLk.title" = "MediaTek SmartDevice";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Latest in bed Data"; ObjectID = "XCs-0n-F2l"; */
+"XCs-0n-F2l.headerTitle" = "Latest in bed Data";
+
+/* Class = "IBUILabel"; text = "Distance"; ObjectID = "Xn3-QI-jpY"; */
+"Xn3-QI-jpY.text" = "Distance";
+
+/* Class = "IBUILabel"; text = "Steps"; ObjectID = "YDO-Aj-94D"; */
+"YDO-Aj-94D.text" = "Steps";
+
+/* Class = "IBUILabel"; text = "----"; ObjectID = "Z8i-dV-h24"; */
+"Z8i-dV-h24.text" = "----";
+
+/* Class = "IBUITextField"; accessibilityLabel = "tab to"; ObjectID = "ZRw-QQ-nAa"; */
+"ZRw-QQ-nAa.accessibilityLabel" = "tab to";
+
+/* Class = "IBUITextField"; placeholder = "Tab to add sos call"; ObjectID = "ZRw-QQ-nAa"; */
+"ZRw-QQ-nAa.placeholder" = "Tab to add sos call";
+
+/* Class = "IBUINavigationItem"; title = "Call mode"; ObjectID = "Zeq-Ua-jQT"; */
+"Zeq-Ua-jQT.title" = "Call mode";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Device Name"; ObjectID = "b0l-5m-fd7"; */
+"b0l-5m-fd7.headerTitle" = "Device Name";
+
+/* Class = "IBUILabel"; text = "In range"; ObjectID = "b6C-R9-rAv"; */
+"b6C-R9-rAv.text" = "In range";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "bcF-qf-P04"; */
+"bcF-qf-P04.title" = "< Back";
+
+/* Class = "IBUINavigationItem"; title = "Range size"; ObjectID = "cG3-d3-9Zm"; */
+"cG3-d3-9Zm.title" = "Range size";
+
+/* Class = "IBUILabel"; text = "----"; ObjectID = "cRf-L7-S84"; */
+"cRf-L7-S84.text" = "----";
+
+/* Class = "IBUITextField"; text = "1"; ObjectID = "cmi-dY-6cy"; */
+"cmi-dY-6cy.text" = "1";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "d0n-il-tfa"; */
+"d0n-il-tfa.title" = "Cancel";
+
+/* Class = "IBUIButton"; normalTitle = "Connect"; ObjectID = "dsO-ch-5dO"; */
+"dsO-ch-5dO.normalTitle" = "Connect";
+
+/* Class = "IBUINavigationItem"; title = "Device"; ObjectID = "e2E-ag-gYl"; */
+"e2E-ag-gYl.title" = "Device";
+
+/* Class = "IBUILabel"; text = "-- kcal"; ObjectID = "fF0-7f-QIx"; */
+"fF0-7f-QIx.text" = "-- kcal";
+
+/* Class = "IBUITextField"; text = "1"; ObjectID = "fSf-kB-ZWj"; */
+"fSf-kB-ZWj.text" = "1";
+
+/* Class = "IBUILabel"; text = "Health data"; ObjectID = "gN6-Rc-1mm"; */
+"gN6-Rc-1mm.text" = "Health data";
+
+/* Class = "IBUILabel"; text = "----"; ObjectID = "gep-7h-CAE"; */
+"gep-7h-CAE.text" = "----";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "hOb-JJ-3lv"; */
+"hOb-JJ-3lv.title" = "< Back";
+
+/* Class = "IBUILabel"; text = "Out of range"; ObjectID = "iH0-EC-QeG"; */
+"iH0-EC-QeG.text" = "Out of range";
+
+/* Class = "IBUILabel"; text = "Out of range"; ObjectID = "jSq-ao-sb4"; */
+"jSq-ao-sb4.text" = "Out of range";
+
+/* Class = "IBUILabel"; text = "Call mode"; ObjectID = "k5T-mV-TNV"; */
+"k5T-mV-TNV.text" = "Call mode";
+
+/* Class = "IBUIBarButtonItem"; title = "OK"; ObjectID = "kAB-uk-dsK"; */
+"kAB-uk-dsK.title" = "OK";
+
+/* Class = "IBUITextField"; accessibilityLabel = "tab to"; ObjectID = "kP0-fO-wnO"; */
+"kP0-fO-wnO.accessibilityLabel" = "tab to";
+
+/* Class = "IBUITextField"; placeholder = "Tab to add sos call"; ObjectID = "kP0-fO-wnO"; */
+"kP0-fO-wnO.placeholder" = "Tab to add sos call";
+
+/* Class = "IBUILabel"; text = "Far"; ObjectID = "m0W-6R-mns"; */
+"m0W-6R-mns.text" = "Far";
+
+/* Class = "IBUITableViewSection"; headerTitle = "TODAY'S ACTIVITies"; ObjectID = "ple-Ux-X2S"; */
+"ple-Ux-X2S.headerTitle" = "TODAY'S ACTIVITies";
+
+/* Class = "IBUILabel"; text = "Alert"; ObjectID = "qpT-eO-jnu"; */
+"qpT-eO-jnu.text" = "Alert";
+
+/* Class = "IBUITextField"; text = "1"; ObjectID = "r9F-CJ-igD"; */
+"r9F-CJ-igD.text" = "1";
+
+/* Class = "IBUIBarButtonItem"; title = "< Back"; ObjectID = "rHz-xn-qYR"; */
+"rHz-xn-qYR.title" = "< Back";
+
+/* Class = "IBUINavigationItem"; title = "Health Data"; ObjectID = "rXv-OI-uvt"; */
+"rXv-OI-uvt.title" = "Health Data";
+
+/* Class = "IBUINavigationItem"; title = "MediaTek SmartDevice"; ObjectID = "ryE-z8-EuV"; */
+"ryE-z8-EuV.title" = "MediaTek SmartDevice";
+
+/* Class = "IBUINavigationItem"; title = "SOS call"; ObjectID = "sj4-28-MoD"; */
+"sj4-28-MoD.title" = "SOS call";
+
+/* Class = "IBUILabel"; text = "--"; ObjectID = "uhr-TI-aUm"; */
+"uhr-TI-aUm.text" = "--";
+
+/* Class = "IBUIButton"; normalTitle = "Find device"; ObjectID = "ujI-kI-U9G"; */
+"ujI-kI-U9G.normalTitle" = "Find device";
+
+/* Class = "IBUINavigationItem"; title = "Alert"; ObjectID = "urP-OL-BRF"; */
+"urP-OL-BRF.title" = "Alert";
+
+/* Class = "IBUILabel"; text = "Far"; ObjectID = "vJQ-qe-wxa"; */
+"vJQ-qe-wxa.text" = "Far";
+
+/* Class = "IBUINavigationItem"; title = "When"; ObjectID = "w6c-fD-mUl"; */
+"w6c-fD-mUl.title" = "When";
+
+/* Class = "IBUILabel"; text = "Calibrate range"; ObjectID = "w9m-qR-tfp"; */
+"w9m-qR-tfp.text" = "Calibrate range";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Latest Sleeping Data"; ObjectID = "wYq-rd-SQQ"; */
+"wYq-rd-SQQ.headerTitle" = "Latest Sleeping Data";
+
+/* Class = "IBUITableViewSection"; footerTitle = "Both the phone and BLE device ring or vibrate when the BLE device is disconnected"; ObjectID = "xal-7b-84G"; */
+"xal-7b-84G.footerTitle" = "Both the phone and BLE device ring or vibrate when the BLE device is disconnected";
+
+/* Class = "IBUILabel"; text = "When"; ObjectID = "xyc-Xv-ArI"; */
+"xyc-Xv-ArI.text" = "When";
+
+/* Class = "IBUILabel"; text = "Auto loop"; ObjectID = "yWC-wy-sio"; */
+"yWC-wy-sio.text" = "Auto loop";
+
+/* Class = "IBUILabel"; text = "Alert vibration"; ObjectID = "zVR-Oc-PQV"; */
+"zVR-Oc-PQV.text" = "Alert vibration";

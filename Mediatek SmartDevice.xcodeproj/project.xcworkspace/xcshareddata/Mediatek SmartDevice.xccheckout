@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4EB5638F-28FF-491A-8651-CD208C8EFB76</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E7A08DBFEA5EC9EF5648651E45FDB60ADEE85FEC</key>
+		<string>192.168.0.144:/Users/mtk54283/git/uiproject/</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Mediatek SmartDevice/Mediatek SmartDevice.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E7A08DBFEA5EC9EF5648651E45FDB60ADEE85FEC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>192.168.0.144:/Users/mtk54283/git/uiproject/</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E7A08DBFEA5EC9EF5648651E45FDB60ADEE85FEC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E7A08DBFEA5EC9EF5648651E45FDB60ADEE85FEC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>uiproject</string>
+		</dict>
+	</array>
+</dict>
+</plist>
